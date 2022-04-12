@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>calculadora imc</title>
+</head>
+<body>
+    <header class="tittle">
+        <h1>puermatz</h1>
+      </header>
+    <div class="wrapping-container">
+        <div class="container">
+            <div class="first-step">
+                <p>Clique no botão para calcular o IMC</p>
+                <button onclick= "go(1,2)"> Iniciar </button>
+            </div>
+        <div class="second-step">
+                <div class="tittle-step">
+                    <h3>Calculadora IMC</h3>
+                </div>
+                <hr>
+            <div class="cal-step">
+                <label for="peso">Digite seu peso:</label>
+                <input type="number" placeholder="Seu Peso" id="peso"><br>
+                <label for="altura">Digite sua altura:</label>
+                <input type="number" placeholder="Sua altura" id="altura"><br>
+                <button onclick= "validate()">Calcular</button>
+            </div>
+        </div>
+            <div class="last-step">
+                <div class="tittle-step">
+                    <h3>Resultado</h3>
+                </div><br>
+                <div class="number-step">
+                    <p id="resultado"></p><br>
+                    <button onclick="go(3,2)">Calcular Novamente</button>
+                    <button onclick="go(3,1)">Finalizar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="final-page">
+        <h2>Devoloped by: Matheus Nascimento</h2>
+        <p>© 2022. Repositório aberto ao publico, produto não comercial, e sim para fins didáticos.</p>
+        <a target="_blank" href="https://github.com/puermatz"><img src="assets/github.png" alt=""></a>
+        <a href="#"></a><img src="assets/insta.png" alt="">
+        <a target="_blank" href="https://www.linkedin.com/in/matheus-nascimento-031893174/"><img src="assets/linke.png" ></a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

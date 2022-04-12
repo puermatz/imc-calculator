@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gruppo&family=Lato:ital,wght@0,100;0,300;1,300;1,400&family=Merriweather:wght@300;400;700;900&family=Permanent+Marker&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'poppins';
+    
+
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg,#0e456b,#9d11c0) no-repeat;
+   
+
+}
+.tittle{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color:#fff;
+    background-color: #2d2c35;
+}
+
+.wrapping-container{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 600px;
+    height: 300px;
+    color: #fff;
+    background-color:rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container .first-step{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 10rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color:#9450ff;
+    font-weight: 500;
+    
+}
+button:hover{
+    background-color: #359ce6;
+    transform: scale(1.1);
+    transition: all ease-in 0.3s;
+    
+}
+
+.second-step {
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.cal-step label{
+    display: inline-block;
+    width: 11rem;
+    height: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.cal-step input{
+    width: 50%;
+    height: 2.5rem;
+    outline: none;
+}
+
+.cal-step{
+    margin-top: 10px;
+}
+.second-step .tittle-step{
+    margin-top: 40px;
+}
+
+.last-step{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.last-step p {
+    font-size: 25px;
+}
+.final-page{
+    
+    background-color: #2d2c35;
+    width: 100vw;
+    height: 15vh;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.final-page img {
+    width: 26px;
+    margin-left: 10px;
+}
+
+
+/*------- DISPLAY NONE------*/
+.second-step, .last-step{
+    display: none;
+}
+
